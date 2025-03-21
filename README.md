@@ -17,6 +17,10 @@ This is a cryptocurrency exchange web application built with **React, TypeScript
 - **Charts**: Lightweight Charts
 - **Package Manager**: pnpm
 
+## Demo site
+
+[https://me.josh.com.tw/tokenize-xchange-assignment](https://me.josh.com.tw/tokenize-xchange-assignment)
+
 ## 🚀 Setup & Installation
 
 ### 1️⃣ Clone the Repository

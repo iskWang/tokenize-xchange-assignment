@@ -7,7 +7,7 @@ const DetailScene = React.lazy(() => import("./scenes/Detail"));
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tokenize-xchange-assignment">
       <AppContainer>
         <Suspense
           fallback={

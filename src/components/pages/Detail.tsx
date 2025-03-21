@@ -1,11 +1,10 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Chart from "../Chart";
-import DetailContainer from "../../containers/pages/Detail";
 import { usePagesDetailContext } from "@/contexts/pages/Detail";
 import { KLineIntervalArray } from "@/types/kline";
 
-const DetailContent: React.FC = () => {
+const Detail: React.FC = () => {
   const { symbol } = useParams<{ symbol: string }>();
   const navigate = useNavigate();
   const { interval, setInterval, chartData } = usePagesDetailContext();
@@ -46,14 +45,6 @@ const DetailContent: React.FC = () => {
         ))}
       </div>
     </div>
-  );
-};
-
-const Detail: React.FC = () => {
-  return (
-    <DetailContainer>
-      <DetailContent />
-    </DetailContainer>
   );
 };
 
